@@ -1,7 +1,7 @@
 .Search-bar{
 	height:35px;
 	align-self: center;
-	width: 99%;
+	width: 100%;
 	border: 0px;
 	border-radius: 5px;
 }
@@ -16,8 +16,11 @@
 	background-color: white;
 	border-radius: 5px;
 	border-color:white ;
-
+	padding: 0px;
+	border: 0px;
 }
+
+
 .search-btn:hover{
 	background-color: rgb(245, 245, 245);
 

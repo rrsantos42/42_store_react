@@ -4,7 +4,7 @@ const Btns = () =>{
 	return(
 		<div className="Btns">
 				 <p className="button-card">&#128722;</p>
-				<a href=""><button className="log-in_btn">Log in Intra</button></a>
+				<a href="http://intra.42.fr"><button className="log-in_btn" alt="log-in">Log in Intra</button></a>
 		</div>
 	);
 }

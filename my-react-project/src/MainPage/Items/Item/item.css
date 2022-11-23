@@ -11,7 +11,7 @@
 }
 
 .product-btns:hover{
-	background-color: rgb(209, 209, 209);
+	background-color: rgba(174, 207, 208, 0.483);
 }
 
 
@@ -29,4 +29,5 @@
 	border: 1px;
 	border-style: solid;
 	border-color: black;
+	border-radius: 10px;
 }

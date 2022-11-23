@@ -1,0 +1,28 @@
+.Btns{
+	width: 17%;
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.log-in_btn{
+	width: 10rem;
+	height: 40px;
+	background-color: #343434;
+	border: 0px;
+	border-radius: 5px;
+	color: white;
+	font-size: 15px;
+}
+.log-in_btn:hover{
+	background-color: #4b4b4b; 
+
+}
+
+.button-card{
+	width: 10px;
+	height: 40px;
+	background-color: #1eb9ba;
+	font-size: 25px;
+	
+}
