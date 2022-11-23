@@ -1,8 +1,10 @@
 .Btns{
-	width: 17%;
+	width: 30%;
 	display: flex;
 	align-items: center;
-	gap: 20px;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 5px;
 }
 
 .log-in_btn{
@@ -19,10 +21,3 @@
 
 }
 
-.button-card{
-	width: 10px;
-	height: 40px;
-	background-color: #1eb9ba;
-	font-size: 25px;
-	
-}

@@ -1,4 +1,4 @@
-import Header from "./Header/header";
+import Header from "../MainPage/Header/header";
 
 const ProductPage = (props) =>{
 	return(

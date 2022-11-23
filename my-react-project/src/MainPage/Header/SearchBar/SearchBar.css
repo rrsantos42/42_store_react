@@ -6,14 +6,14 @@
 	border-radius: 5px;
 }
 .Search{
-	width: 90%;
-	background-color: white;
+	width: 100%;
+	background-color: rgb(255, 255, 255);
 	display: flex;
 	border-radius: 5px;
 }
 .search-btn{
 	height: 40px;
-	background-color: white;
+	background-color: rgb(255, 255, 255);
 	border-radius: 5px;
 	border-color:white ;
 	padding: 0px;

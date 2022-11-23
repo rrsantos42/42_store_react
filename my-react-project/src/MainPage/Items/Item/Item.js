@@ -11,7 +11,7 @@ const Item = (props) => {
 	const history = useHistory();
 	return(
 		<button className="product-btns" onClick={() => {
-			history.push('/product')
+			history.push('/42Store/product')
 		 	console.log(props.product.Item)}}
 			>
 			<div className="product-container">

@@ -1,8 +1,9 @@
-import {Route} from 'react-router-dom';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
 import './App.css';
 import MainPage from './MainPage/MainPage';
 import ProductPage from './ProductPage/Product';
-import {Switch} from 'react-router-dom'
+import LandingPageLisbon from './LandingPageLisbon/LandingPage';
+import LandingPagePorto from './LandingPagePorto/LandingPage';
 
 function App() {
 
@@ -168,16 +169,26 @@ function App() {
 			imgs: "../../imgs/sweat.png"
 		  }
 	  ]
+    const mainpage = () => {
+      return(<MainPage product= {Product}/>);
+    }
+    const productpage = () => {
+      return( <ProductPage product = {Product}/>);
+    }
+    const landingpagelisbon = () => {
+      return( <LandingPageLisbon/>);
+    }
+    const landingpageporto = () => {
+      return( <LandingPagePorto/>);
+    }
   return (
     <div>
-        <Switch>
-        <Route exact path="/">
-          <MainPage product= {Product}/>
-        </Route>
-        <Route path="/product">
-          <ProductPage product = {Product}/>
-        </Route>
-        </Switch>
+        <Router>
+          <Route path="/Porto" component={landingpageporto} />
+          <Route path="/Lisbon" component={landingpagelisbon} />
+          <Route path = "/42Store/home" component={mainpage}/>
+          <Route path="/42Store/product" component={productpage}/>
+        </Router>
     </div>
   );
 }
