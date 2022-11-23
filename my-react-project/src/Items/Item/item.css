@@ -1,0 +1,32 @@
+.product-img{
+	width: 220px;
+	height: 280px;
+}
+.product-container{
+	display: flex;
+	flex-direction: column;
+	justify-items: flex-start;
+	align-items: flex-start;
+
+}
+
+.product-btns:hover{
+	background-color: rgb(209, 209, 209);
+}
+
+
+.price{
+	justify-self: flex-start;
+	align-self: flex-start;
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+.product-btns{
+	background-color: rgb(255, 255, 255);
+	border: 1px;
+	border-style: solid;
+	border-color: black;
+}

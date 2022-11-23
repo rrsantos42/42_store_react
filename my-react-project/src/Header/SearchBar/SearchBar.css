@@ -1,0 +1,24 @@
+.Search-bar{
+	height:35px;
+	align-self: center;
+	width: 99%;
+	border: 0px;
+	border-radius: 5px;
+}
+.Search{
+	width: 90%;
+	background-color: white;
+	display: flex;
+	border-radius: 5px;
+}
+.search-btn{
+	height: 40px;
+	background-color: white;
+	border-radius: 5px;
+	border-color:white ;
+
+}
+.search-btn:hover{
+	background-color: rgb(245, 245, 245);
+
+}
