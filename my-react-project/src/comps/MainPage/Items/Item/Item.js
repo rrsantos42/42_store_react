@@ -10,14 +10,13 @@ const Item = (props) => {
 
 	const history = useHistory();
 	return(
-		<button className="product-btns" onClick={() => {
-			history.push('/42Store/product')
-		 	console.log(props.product.Item)}}
+		<button className="product-btns" onClick={() => 
+			history.push('/42Store/product')}
 			>
 			<div className="product-container">
 				<img src={img} alt="Product" className="product-img"></img>
 				<p>{props.product.type}</p>
-				<p className="price">{props.product.Price} €</p>
+				<p className="price">{props.product.price} €</p>
 
 			</div>
 		</button>

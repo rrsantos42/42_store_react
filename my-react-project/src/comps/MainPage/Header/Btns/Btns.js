@@ -5,7 +5,7 @@ const Btns = () =>{
 	return(
 		<div className="Btns">
 				<HeaderbtnCard/>
-				<a href="https://www.intra.42.fr"><button className="log-in_btn" alt="log-in">Log in Intra</button></a>
+				<button className="user">&#128512;</button>
 		</div>
 	);
 }

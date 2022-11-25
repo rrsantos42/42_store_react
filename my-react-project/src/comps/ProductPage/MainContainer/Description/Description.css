@@ -1,0 +1,27 @@
+.header{
+	margin-bottom: 0px;
+}
+
+.description-container{
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+
+.description{
+	width: 50%;
+	font-family: f;
+	margin-top: 0px;
+	margin-bottom: 15%;
+	padding-top: 0px;
+
+}
+
+.price__description{
+
+	margin-left: 10px;
+	margin-bottom: 40px;
+}
+
+.selector{
+}
