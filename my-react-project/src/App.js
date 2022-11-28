@@ -1,9 +1,9 @@
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import './App.css';
-import MainPage from './MainPage/MainPage';
-import ProductPage from './ProductPage/Product';
-import LandingPageLisbon from './LandingPageLisbon/LandingPage';
-import LandingPagePorto from './LandingPagePorto/LandingPage';
+import MainPage from './comps/MainPage/MainPage';
+import ProductPage from './comps/ProductPage/Product';
+import LandingPageLisbon from './comps/LandingPageLisbon/LandingPage';
+import LandingPagePorto from './comps/LandingPagePorto/LandingPage';
 import {Product, SweatShirt}   from './Api/Products';
 
 

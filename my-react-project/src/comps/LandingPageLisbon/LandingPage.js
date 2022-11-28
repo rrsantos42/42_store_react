@@ -12,7 +12,7 @@ const LandingPageLisbon = () => {
 		<div class="btn"  onClick={() => 
 			history.push('/42Store/home')}>Enter</div>
 		<div class="redirect"  onClick={() => 
-			history.push('/42Store/home')}>Go to Porto WebStore</div>
+			history.push('/Porto')}>Go to Porto WebStore</div>
 		</div>
 	  </div>
 	);

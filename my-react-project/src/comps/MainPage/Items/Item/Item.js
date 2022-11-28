@@ -1,4 +1,4 @@
-import img from "../../../imgs/sweat.png"
+import img from "../../../../imgs/sweat.png"
 import "./item.css"
 // import { Link } from 'react-router-dom'
 // import Button from '@material-ui/core/Button';

@@ -1,6 +1,10 @@
+import { useState } from "react";
 import CartIcon from "./btn-card/CardIcon";
 import "./HeaderBtnCard.css";
 const HeaderbtnCard = () =>{
+
+	const [CartItems, SetCartItems] = useState(0)
+
 	return(
 		<button className="button">
 			<span className="icon">
@@ -10,7 +14,7 @@ const HeaderbtnCard = () =>{
 				Your Cart
 			</span>
 			<span className="badge">
-				0
+				{CartItems}
 			</span>
 
 		</button>

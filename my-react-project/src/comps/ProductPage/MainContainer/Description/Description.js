@@ -1,5 +1,8 @@
 import "./Description.css"
 import Selector from "../Selector/Selector";
+import QuantitySelection from "./QuantitySelection/QuantitySelection";
+import AddToCart from "./AddToCart/AddToCart";
+
 const Description = (props) =>{
 	return(
 		<div className="description-container">
@@ -7,6 +10,8 @@ const Description = (props) =>{
 			<p className="description">{props.product.description}</p>
 			<p className="price__description">{props.product.price}$</p>
 			<Selector className="selector"/>
+			<QuantitySelection/>
+			<AddToCart/>
 		</div>
 	);
 };
