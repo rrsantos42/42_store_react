@@ -1,0 +1,144 @@
+{"Products" : [
+	{
+	  "id": 1,
+	  "type": "Sweat Shirt",
+	  "price": "20,00",
+	  "Size": ["S", "M", "L", "XL"],
+	  "Available": 0
+	},
+
+	{
+	  "id": 2,
+	  "type": "T-Shirt",
+	  "price" : "15,00",
+	  "Size": ["S", "M", "L", "XL"],
+	  "Available": 1
+	},
+	{
+	  "id": 3,
+	  "type": "Towel",
+	  "price": "10,00",
+	  "Size": null,
+	  "Available": 2
+	},
+	{
+	  "id": 4,
+		"type": "Mouse Pad",
+		"price": "5,00",
+		"Size": null,
+		"Available": 0
+	  },
+	  {
+	  "id": 5,
+		"type": "Sweat Shirt",
+		"price": "20,00",
+		"Size": ["S", "M", "L", "XL"],
+		"Available": 0
+		},
+	  {
+	  "id": 6,
+		"type": "Sweat Shirt",
+		"price": "20,00",
+		"Size": ["S", "M", "L", "XL"],
+		"Available": 0
+	  },
+	  {
+	  "id": 7,
+		"type": "Sweat Shirt",
+		"price": "20,00",
+		"Size": ["S", "M", "L", "XL"],
+		"Available": 0
+	  },
+	  {
+	  "id" : 8,
+		"type": "Sweat Shirt",
+		"price": "20,00",
+		"Size": ["S", "M", "L", "XL"],
+		"Available": 0
+	  },
+	  {
+	  "id" : 9
+,			"type": "Sweat Shirt",
+		"price": "20,00",
+		"Size": ["S", "M", "L", "XL"],
+		"Available": 0
+	  },
+	  {
+	  "id": 10,
+		"type": "Sweat Shirt",
+		"price": "20,00",
+		"Size": ["S", "M", "L", "XL"],
+		"Available": 0
+	  },
+	  {
+	  "id": 11,
+		"type": "Sweat Shirt",
+		"price": 20.00,
+		"Size": ["S", "M", "L", "XL"],
+		"Available": 0
+	  },
+	  {
+	  "id": 12,
+		"type": "Sweat Shirt",
+		"price": 20.00,
+		"Size": ["S", "M", "L", "XL"],
+		"Available": 0
+	  },
+	  {
+	  "id": 13,
+		"type": "Sweat Shirt",
+		"price": 20.00,
+		"Size": ["S", "M", "L", "XL"],
+		"Available": 0
+	  },
+	  {
+	  "id": 14,
+		"type": "Sweat Shirt",
+		"price": 20.00,
+		"Size": ["S", "M", "L", "XL"],
+		"Available": 0
+	  },
+	  {
+	  "id": 15,
+		"type": "Sweat Shirt",
+		"price": 20.00,
+		"Size": ["S", "M", "L", "XL"],
+		"Available": 0
+	  },
+	  {
+	  "id": 16,
+		"type": "Sweat Shirt",
+		"price": 20.00,
+		"Size": ["S", "M", "L", "XL"],
+		"Available": 1
+	  },
+	  {
+	  "id": 17,
+		"type": "Sweat Shirt",
+		"price": 20.00,
+		"Size": ["S", "M", "L", "XL"],
+		"Available": 1
+	  },
+	  {
+	  "id": 18,
+		"type": "Sweat Shirt",
+		"price": 20.00,
+		"Size": ["S", "M", "L", "XL"],
+		"Available": 1
+	  },
+	  {
+	  "id": 19,
+		"type": "Sweat Shirt",
+		"price": 20.00,
+		"Size": ["S", "M", "L", "XL"],
+		"Available": 1
+	  },
+	  {
+	  "id": 20,
+		"type": "Sweat Shirt",
+		"price": 20.00,
+		"Size": ["S", "M", "L", "XL"],
+		"Available": 1
+	  }
+	]
+}
